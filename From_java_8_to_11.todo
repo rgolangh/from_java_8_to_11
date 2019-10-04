@@ -1,0 +1,24 @@
+# java 9
+- [ ] jshell
+- [ ] immutable collection factory
+- [ ] completableFuture improvements
+- [ ] private methods in interfaces
+- [ ] Depracated(since="4.4", forRemoval = false)
+- [ ] reactive api
+- [ ] jpms java modules
+ 
+# java 10
+- [ ] var keyword
+- [ ] G1 parallel full GC
+- [ ] jvm container awareness
+
+# java 11 LTS
+- [ ] local var for lambdas
+- [ ] single file program (who needs javac?)
+- [ ] http client
+- [ ] java.util.String (who needs string-utils?!)
+- [ ] Predictate not
+- [ ] epsilon garbage collector
+- [ ] flight recorder, mission control
+- [ ] graalVM
+- [ ] native-image
