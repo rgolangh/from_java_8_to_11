@@ -37,6 +37,7 @@
 - [ ] graal
   - [ ] jit compiler written
   - [ ] written in java
+  - [ ] produces more optimized code than c1/c2
 - [ ] graalVM 19.2
   - [ ] native-image
   - [ ] compile Python ,R, Ruby, C/C++, Rust to bytecode
