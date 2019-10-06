@@ -1,11 +1,16 @@
 # java 9
 - [ ] jshell
 - [ ] immutable collection factory
-- [ ] completableFuture improvements
+- [ ] completableFuture improvements have timeouts
 - [ ] private methods in interfaces
 - [ ] Depracated(since="4.4", forRemoval = false)
 - [ ] reactive api
 - [ ] jpms java modules
+- [ ] G1 default GC
+  - [ ] adaptive start of concurrent mark
+  - [ ] internal structures more concurrent
+  - [ ] reduced contention
+  - [ ] reduced memory consumption
  
 # java 10
 - [ ] var keyword
@@ -18,7 +23,21 @@
 - [ ] http client
 - [ ] java.util.String (who needs string-utils?!)
 - [ ] Predictate not
-- [ ] epsilon garbage collector
-- [ ] flight recorder, mission control
-- [ ] graalVM
-- [ ] native-image
+- [ ] new garbage collectors
+  - [ ] epsilon
+  - [ ] ZGC
+    - [ ] designed for low latency
+    - [ ] pause time < 10ms
+    - [ ] same throughput as G1
+    - [ ] multi TB
+    - [ ] numa aware
+    - [ ] supported but experimental
+- [ ] flight recorder
+- [ ] mission control
+- [ ] graal
+  - [ ] jit compiler written
+  - [ ] written in java
+- [ ] graalVM 19.2
+  - [ ] native-image
+  - [ ] compile Python ,R, Ruby, C/C++, Rust to bytecode
+  - [ ] interoperablity in mind
