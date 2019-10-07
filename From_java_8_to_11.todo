@@ -5,6 +5,8 @@
 - [ ] private methods in interfaces
 - [ ] Depracated(since="4.4", forRemoval = false)
 - [ ] reactive api
+  - [ ] async data-streams with non-blocking back-pressure
+  - [ ] SPI
 - [ ] jpms java modules
 - [ ] G1 default GC
   - [ ] adaptive start of concurrent mark
@@ -22,13 +24,13 @@
 - [ ] single file program (who needs javac?)
 - [ ] http client
 - [ ] java.util.String (who needs string-utils?!)
-- [ ] Predictate not
+- [ ] Predicate not
 - [ ] new garbage collectors
   - [ ] epsilon
   - [ ] ZGC
     - [ ] designed for low latency
     - [ ] pause time < 10ms
-    - [ ] same throughput as G1
+    - [ ] same throughput as G
     - [ ] multi TB
     - [ ] numa aware
     - [ ] supported but experimental
